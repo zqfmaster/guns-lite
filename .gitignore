@@ -16,3 +16,7 @@ guns-admin-vuejs/node_modules/*
 guns-admin-vuejs/.idea/*
 guns-admin-vuejs/dist/*
 log/*
+
+####################
+.gitignore
+guns-admin/src/main/resources/application-dev.properties
