@@ -17,6 +17,11 @@
               {{ $t('navbar.dashboard') }}
             </el-dropdown-item>
           </router-link>
+          <router-link to="/account/updatePwd">
+            <el-dropdown-item>
+              {{ $t('navbar.updatePwd') }}
+            </el-dropdown-item>
+          </router-link>
           <el-dropdown-item divided>
             <span style="display:block;" @click="logout">{{ $t('navbar.logOut') }}</span>
           </el-dropdown-item>

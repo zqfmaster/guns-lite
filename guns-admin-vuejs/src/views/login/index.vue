@@ -1,5 +1,5 @@
 <template>
-  <div class="login-container">
+  <div class="login-container"  style=" background-image: url(static/img/bg.jpg);">
 
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" auto-complete="on" label-position="left">
 
@@ -42,7 +42,7 @@
       <div style="position:relative">
         <div class="tips">
           <span>{{ $t('login.username') }} : admin</span>
-          <span>{{ $t('login.password') }} : admin</span>
+          <span>{{ $t('login.password') }} : admin(或123456)</span>
         </div>
         <div class="tips">
           <span style="margin-right:18px;">{{ $t('login.username') }} : developer</span>
